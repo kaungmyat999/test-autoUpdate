@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./imgs/yt_logo.jpg">
+</head>
+<body>
+    <h1 class="title">SPRING CLICKER</h3>
+    <hr>
+    <div class="row"> 
+        <div class="card card-1">
+            <div class="card-items">
+                <img src="./imgs/web_icon.png" alt="web_icon" id="web_logo">
+                <h3 class="card1-txt">WEB</h3>
+            </div>
+        </div>
+        <div class="card card-2">
+            <div class="card-items ">
+                <img src="./imgs/yt_logo.png" alt="yt_logo" id="yt_logo">
+                <h3 class="card2-txt">YOUTUBE</h3>
+            </div>
+        </div>
+        <div class="card card-3">
+            <div class="card-items">
+                <img src="./imgs/Info_Icon.png" alt="info_logo" id="info_logo">
+                <h3 class="card3-txt">INFO</h3>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        let web_logo = document.getElementsByClassName('card-1')
+        let yt_logo  = document.getElementsByClassName('card-2')
+        let info_logo = document.getElementsByClassName('card-3')
+
+        web_logo[0].addEventListener('click',()=>location.href='./index_web.html')
+        yt_logo[0].addEventListener('click',()=>location.href='./index_yt.html')
+        info_logo[0].addEventListener('click',()=>location.href='./index_info.html')
+    </script>
+</body>
+</html>

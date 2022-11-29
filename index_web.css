@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.ctn{
+  background-color: #0A1B30;
+  height: auto;
+}
+.title_container{
+  width: 100%;
+}
+
+.title-block{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 86%;
+  padding:0px 0 0 0;
+}  
+
+.btn{
+  margin-top: 18px;
+  padding-left: 2rem;
+}
+#white_line{
+  width: 25%;
+  margin: 0 18.5% 0 37.5%;
+  border-width: 3px 0 0 0;
+}
+.title h1{
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 4px 0 0 0;
+}
+.back_btn{
+  width: 50px;
+  height:50%;
+  left:auto;
+  margin-right: 14rem;
+
+}
+.row1_container{
+  display: flex;
+  background-color: aqua;
+  height: auto;
+}
+.row1{
+  margin-top: 0;
+  display: flex;
+  padding-top: 0rem;
+
+  justify-content: space-evenly;
+  background-color: #0A1B30;
+  align-items: center;
+  min-height: 235.4px;  
+}
+
+.row2{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #0A1B30;
+  align-items: flex-start;
+  min-height: 235.4px;  
+  
+}
+.box {
+  
+  width: 150px;
+  height: 75px;
+  border-radius: 6px;
+  border: 0;
+
+  
+}
+
+.box1{
+  background: rgba(233, 69, 96, 0.96);
+  box-shadow: 0 0 5px 10px rgba(96, 11, 11, 0.166);
+}
+
+.box2{
+  background-color: #533483;
+  box-shadow: 0 0 5px 10px rgba(17, 3, 63, 0.193);
+}
+
+.box3{
+  background-color: #E90E88;
+  box-shadow: 0 0 5px 10px rgba(82, 3, 61, 0.22);
+}
+
+.box4{
+  background-color: #40BD8B;
+  box-shadow: 0 0 5px 10px rgba(4, 50, 53, 0.194);
+}
+.btn_txt{
+  font-size: 30px;
+  color: rgb(239, 239, 239);
+  font-family: 'Audiowide', cursive;
+}
+.box:hover {
+  
+}
+
+button{
+  margin: 50px;
+}
+h3{
+    text-align: center;
+}

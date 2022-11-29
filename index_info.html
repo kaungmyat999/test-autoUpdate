@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Page</title>
+    <link rel="stylesheet" href="index_info.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="title-block">
+                <div class="btn">
+                    <img src="./imgs/Back_btn.png" alt="back_btn" class="back_btn">
+                </div>
+                <div class="title">
+                    <h1>Info</h1>
+                </div>
+                
+            </div>
+            <hr>
+
+        </div>
+    
+        <div class="second-block">
+            <div class="text-block">
+                <p class="top-txt">
+                    Blah is an MIT open-source* automation software powered with selenium framework. This project is meant to get money inorder to support in restoring Democracy, Freedom and Justice and Human Rights in Myanmar ( Burma ).
+                </p>
+                <p>The original websites used in the software will be managed and maintained  by their owner.
+                </p>
+                <p>For suggestions, making reviews  and reporting bugs or user experiences, you can check the facebook page.
+                </p>
+                <p>
+                    * Open-Source means it’s free to use and can be studied or improved by the public.
+                </p>
+                <p id="footer" >©2022 All Rights Reserved</p >
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Back Button
+        back_btn = document.getElementsByClassName('back_btn')
+        back_btn[0].addEventListener('click',()=>location.href='./index.html')
+    </script>
+</body>
+</html>
